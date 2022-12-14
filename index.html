@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/images/Vector.png" />
+
+    <title>EduTech</title>
+    <!-- owl carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css
+    "
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+    <!--  -->
+  </head>
+  <body id="body-pd">
+    <!-- side bar start -->
+    <header class="header" id="header">
+      <div class="header_toggle">
+        <i class="bx bx-menu" id="header-toggle"></i>
+        <h5 style="display: inline"><b>HOMEWORK</b></h5>
+      </div>
+      <div class="header_img">
+        <img src="./assets/images/bellIcon.png" alt="" />
+        <img src="https://i.imgur.com/hczKIze.jpg" alt="" />
+      </div>
+    </header>
+    <div class="l-navbar" id="nav-bar">
+      <nav class="nav">
+        <div>
+          <a href="#" class="nav_logo">
+            <img width="" src="./assets/images/Vector.png" alt="" />
+            <span class="nav_logo-name"
+              ><img src="./assets/images/logExpand.png" alt=""
+            /></span>
+          </a>
+          <div class="nav_list">
+            <a href="#" class="nav_link active">
+              <img src="./assets/images/dashboard.png" alt="" />
+              <span class="nav_name">Dashboard</span>
+            </a>
+            <a href="#" class="nav_link">
+              <img src="./assets/images/attentance.png" alt="" />
+              <span class="nav_name">Attentance</span>
+            </a>
+            <a href="#" class="nav_link">
+              <img src="./assets/images/homework.png" alt="" />
+              <span class="nav_name">Homework</span>
+            </a>
+            <a href="#" class="nav_link">
+              <img src="./assets/images/assignment.png" alt="" />
+              <span class="nav_name">Assignment</span>
+            </a>
+            <a href="#" class="nav_link">
+              <img src="./assets/images/results.png" alt="" />
+              <span class="nav_name">Results</span>
+            </a>
+            <a href="#" class="nav_link">
+              <img src="./assets/images/payment.png" alt="" />
+              <span class="nav_name">payments</span>
+            </a>
+            <a href="#" class="nav_link">
+              <img src="./assets/images/messages.png" alt="" />
+              <span class="nav_name">Messages</span>
+            </a>
+            <a href="#" class="nav_link">
+              <img src="./assets/images/timetable.png" alt="" />
+              <span class="nav_name">Time Table</span>
+            </a>
+          </div>
+        </div>
+        <a href="#" class="nav_link">
+          <img src="./assets/images/logout.png" alt="" />
+          <span class="nav_name">LogOut</span>
+        </a>
+      </nav>
+    </div>
+    <!-- side bar end -->
+    <!--Container Main start-->
+    <div>
+      <div class="container-fluid">
+        <div class="row py-5">
+          <div class="col-lg-3 col-md-4 py-2">
+            <div class="top-main-menu">
+              <div class="dropdown">
+                <button
+                  class="btn"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  New HomeWorks <span>05</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Subject one</a>
+                  <a class="dropdown-item" href="#">subject two</a>
+                  <a class="dropdown-item" href="#">subject three</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 py-2">
+            <div class="top-main-menu" style="background-color: #e5f3fe">
+              <div class="dropdown">
+                <button
+                  class="btn"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Total Homework
+                  <span style="background-color: #579be4">05</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Subject one</a>
+                  <a class="dropdown-item" href="#">subject two</a>
+                  <a class="dropdown-item" href="#">subject three</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 py-2">
+            <div class="top-main-menu" style="background-color: #ffe9ea">
+              <div class="dropdown">
+                <button
+                  class="btn"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Due Soon <span style="background-color: #f75961">05</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Subject one</a>
+                  <a class="dropdown-item" href="#">subject two</a>
+                  <a class="dropdown-item" href="#">subject three</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 py-2">
+            <div class="top-main-menu" style="background-color: #fff0e1">
+              <div class="dropdown">
+                <button
+                  class="btn"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  In Review <span style="background-color: #fcab5e">05</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Subject one</a>
+                  <a class="dropdown-item" href="#">subject two</a>
+                  <a class="dropdown-item" href="#">subject three</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Container Main end-->
+    <!-- new Home work start -->
+    <div class="container-fluid pb-3">
+      <div class="row">
+        <div class="col-md-8 col-8">
+          <h3>New HomeWork</h3>
+        </div>
+        <div class="col-md-4 col-4">
+          <div class="arrow float-end">
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <div class="card-carousel p-2" style="background: #ffe9ea">
+          <h4 style="color: #f75961">English</h4>
+          <h6>Write an Essay about Cherry Tree for 150 words</h6>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+            rutrum leo.
+          </p>
+          <div class="row">
+            <div class="col-md-8">
+              <p>Due Date 25.11.2022</p>
+            </div>
+            <div class="col-md-4">
+              <button class="btn" style="background: #f75961">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card-carousel p-2" style="background: #e9e3fe">
+          <h4 style="color: #8a70d6">Science</h4>
+          <h6>Write an Essay about Cherry Tree for 150 words</h6>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+            rutrum leo.
+          </p>
+          <div class="row">
+            <div class="col-md-8">
+              <p>Due Date 25.11.2022</p>
+            </div>
+            <div class="col-md-4">
+              <button class="btn" style="background: #8a70d6">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card-carousel p-2" style="background: #e5f3fe">
+          <h4 style="color: #579be4">Geography</h4>
+          <h6>Write an Essay about Cherry Tree for 150 words</h6>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+            rutrum leo.
+          </p>
+          <div class="row">
+            <div class="col-md-8">
+              <p>Due Date 25.11.2022</p>
+            </div>
+            <div class="col-md-4">
+              <button class="btn" style="background: #579be4">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card-carousel p-2" style="background: #ffe9ea">
+          <h4 style="color: #f75961">English</h4>
+          <h6>Write an Essay about Cherry Tree for 150 words</h6>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+            rutrum leo.
+          </p>
+          <div class="row">
+            <div class="col-md-8">
+              <p>Due Date 25.11.2022</p>
+            </div>
+            <div class="col-md-4">
+              <button class="btn" style="background: #f75961">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card-carousel p-2" style="background: #e9e3fe">
+          <h4 style="color: #8a70d6">Science</h4>
+          <h6>Write an Essay about Cherry Tree for 150 words</h6>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+            rutrum leo.
+          </p>
+          <div class="row">
+            <div class="col-md-8">
+              <p>Due Date 25.11.2022</p>
+            </div>
+            <div class="col-md-4">
+              <button class="btn" style="background: #8a70d6">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card-carousel p-2" style="background: #e5f3fe">
+          <h4 style="color: #579be4">Geography</h4>
+          <h6>Write an Essay about Cherry Tree for 150 words</h6>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+            rutrum leo.
+          </p>
+          <div class="row">
+            <div class="col-md-8">
+              <p>Due Date 25.11.2022</p>
+            </div>
+            <div class="col-md-4">
+              <button class="btn" style="background: #579be4">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr style="border: 1px solid #a6a6a6" />
+    <!-- new Home work end -->
+    <!-- book section start -->
+    <div class="container-fluid pb-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 py-2">
+          <div class="card p-2" style="background-color: #ffe9ea">
+            <img src="./assets/images/cardBook.png" alt="" />
+            <h5>English</h5>
+            <div class="row">
+              <div class="col-md-9 col-9">
+                <h6>New HomeWork <span style="color: #f75961">02</span></h6>
+                <h6>Total HomeWork <span style="color: #f75961">02</span></h6>
+              </div>
+              <div class="col-md-2 col-3">
+                <button class="btn-book" style="background-color: #f75961">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 py-2">
+          <div class="card p-2" style="background-color: #e9e3fe">
+            <img width="100%" src="./assets/images/scienceBook.png" alt="" />
+            <h5 class="pt-4">Science</h5>
+            <div class="row">
+              <div class="col-md-9 col-9">
+                <h6>New HomeWork <span style="color: #8a70d6">02</span></h6>
+                <h6>Total HomeWork <span style="color: #8a70d6">02</span></h6>
+              </div>
+              <div class="col-md-2 col-3">
+                <button class="btn-book" style="background-color: #8a70d6">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 py-2">
+          <div class="card p-2" style="background-color: #e5f3fe">
+            <img src="./assets/images/Georaphy.png" alt="" />
+            <h5 class="pt-4">Geography</h5>
+            <div class="row">
+              <div class="col-md-9 col-9">
+                <h6>New HomeWork <span style="color: #579be4">02</span></h6>
+                <h6>Total HomeWork <span style="color: #579be4">02</span></h6>
+              </div>
+              <div class="col-md-2 col-3">
+                <button class="btn-book" style="background-color: #579be4">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 py-2">
+          <div class="card p-2" style="background-color: #eafff7">
+            <img src="./assets/images/Earth.png" alt="" />
+            <h5 class="pt-4">Environmental Studies</h5>
+            <div class="row">
+              <div class="col-md-9 col-9">
+                <h6>New HomeWork <span style="color: #32936f">02</span></h6>
+                <h6>Total HomeWork <span style="color: #32936f">02</span></h6>
+              </div>
+              <div class="col-md-2 col-3">
+                <button class="btn-book" style="background-color: #32936f">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 py-2">
+          <div class="card p-2" style="background-color: #fff0e1">
+            <img src="./assets/images/language.png" alt="" />
+            <h5 class="pt-4">Language</h5>
+            <div class="row">
+              <div class="col-md-9 col-9">
+                <h6>New HomeWork <span style="color: #fcab5e">02</span></h6>
+                <h6>Total HomeWork <span style="color: #fcab5e">02</span></h6>
+              </div>
+              <div class="col-md-2 col-3">
+                <button class="btn-book" style="background-color: #fcab5e">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 py-2">
+          <div class="card p-2" style="background-color: #eafff7">
+            <img src="./assets/images/mathematics.png" alt="" />
+            <h5 class="pt-2">Mathematics</h5>
+            <div class="row">
+              <div class="col-md-9 col-9">
+                <h6>New HomeWork <span style="color: #32936f">02</span></h6>
+                <h6>Total HomeWork <span style="color: #32936f">02</span></h6>
+              </div>
+              <div class="col-md-2 col-3">
+                <button class="btn-book" style="background-color: #32936f">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 py-2">
+          <div class="card p-2" style="background-color: #ffe9ea">
+            <img src="./assets/images/computer-application.png" alt="" />
+            <h5 class="pt-4">Computer Applications</h5>
+            <div class="row">
+              <div class="col-md-9 col-9">
+                <h6>New HomeWork <span style="color: #f75961">02</span></h6>
+                <h6>Total HomeWork <span style="color: #f75961">02</span></h6>
+              </div>
+              <div class="col-md-2 col-3">
+                <button class="btn-book" style="background-color: #f75961">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 py-2">
+          <div class="card p-2" style="background-color: #fff0e1">
+            <img src="./assets/images/artandcraft.png" alt="" />
+            <h5 class="pt-4">Art and Craft</h5>
+            <div class="row">
+              <div class="col-md-9 col-9">
+                <h6>New HomeWork <span style="color: #fcab5e">02</span></h6>
+                <h6>Total HomeWork <span style="color: #fcab5e">02</span></h6>
+              </div>
+              <div class="col-md-2 col-3">
+                <button class="btn-book" style="background-color: #fcab5e">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- book section end -->
+
+    <!-- owl -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"
+      integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true,
+          },
+          600: {
+            items: 2,
+            nav: true,
+          },
+          1000: {
+            items: 3,
+
+            loop: true,
+          },
+        },
+      });
+    </script>
+    <!-- bootstrap -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="./assets/javascript/sidebbar.js"
+    ></script>
+    <!-- owl carousel -->
+  </body>
+</html>
