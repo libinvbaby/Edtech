@@ -52,6 +52,9 @@ a {
 .header_img img {
   width: 40px;
 }
+.logoname {
+  display: inline;
+}
 .l-navbar {
   margin-top: 10px;
   margin-left: 10px;
